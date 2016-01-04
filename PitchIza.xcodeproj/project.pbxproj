@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF9A0BAE1C30C74B000A553A /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9A0BAD1C30C74B000A553A /* RecordedAudio.swift */; };
+		BFA29E8B1C2EFC6000152729 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA29E8A1C2EFC6000152729 /* AppDelegate.swift */; };
+		BFA29E8D1C2EFC6000152729 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA29E8C1C2EFC6000152729 /* RecordSoundsViewController.swift */; };
+		BFA29E901C2EFC6000152729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA29E8E1C2EFC6000152729 /* Main.storyboard */; };
+		BFA29E921C2EFC6000152729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA29E911C2EFC6000152729 /* Assets.xcassets */; };
+		BFA29E951C2EFC6000152729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA29E931C2EFC6000152729 /* LaunchScreen.storyboard */; };
+		BFA29EA01C2EFC6000152729 /* PitchIzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA29E9F1C2EFC6000152729 /* PitchIzaTests.swift */; };
+		BFA29EAB1C2EFC6000152729 /* PitchIzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA29EAA1C2EFC6000152729 /* PitchIzaUITests.swift */; };
+		BFA29EB91C2F4E9300152729 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA29EB81C2F4E9300152729 /* PlaySoundsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFA29E9C1C2EFC6000152729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA29E7F1C2EFC6000152729 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA29E861C2EFC6000152729;
+			remoteInfo = PitchIza;
+		};
+		BFA29EA71C2EFC6000152729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA29E7F1C2EFC6000152729 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA29E861C2EFC6000152729;
+			remoteInfo = PitchIza;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF9A0BAD1C30C74B000A553A /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
+		BFA29E871C2EFC6000152729 /* PitchIza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchIza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA29E8A1C2EFC6000152729 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFA29E8C1C2EFC6000152729 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
+		BFA29E8F1C2EFC6000152729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFA29E911C2EFC6000152729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFA29E941C2EFC6000152729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFA29E961C2EFC6000152729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA29E9B1C2EFC6000152729 /* PitchIzaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchIzaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA29E9F1C2EFC6000152729 /* PitchIzaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchIzaTests.swift; sourceTree = "<group>"; };
+		BFA29EA11C2EFC6000152729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA29EA61C2EFC6000152729 /* PitchIzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchIzaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA29EAA1C2EFC6000152729 /* PitchIzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchIzaUITests.swift; sourceTree = "<group>"; };
+		BFA29EAC1C2EFC6000152729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA29EB81C2F4E9300152729 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFA29E841C2EFC6000152729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA29E981C2EFC6000152729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA29EA31C2EFC6000152729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFA29E7E1C2EFC6000152729 = {
+			isa = PBXGroup;
+			children = (
+				BFA29E891C2EFC6000152729 /* PitchIza */,
+				BFA29E9E1C2EFC6000152729 /* PitchIzaTests */,
+				BFA29EA91C2EFC6000152729 /* PitchIzaUITests */,
+				BFA29E881C2EFC6000152729 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFA29E881C2EFC6000152729 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFA29E871C2EFC6000152729 /* PitchIza.app */,
+				BFA29E9B1C2EFC6000152729 /* PitchIzaTests.xctest */,
+				BFA29EA61C2EFC6000152729 /* PitchIzaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFA29E891C2EFC6000152729 /* PitchIza */ = {
+			isa = PBXGroup;
+			children = (
+				BFA29E8A1C2EFC6000152729 /* AppDelegate.swift */,
+				BFA29E8C1C2EFC6000152729 /* RecordSoundsViewController.swift */,
+				BFA29E8E1C2EFC6000152729 /* Main.storyboard */,
+				BF9A0BAD1C30C74B000A553A /* RecordedAudio.swift */,
+				BFA29EB81C2F4E9300152729 /* PlaySoundsViewController.swift */,
+				BFA29E911C2EFC6000152729 /* Assets.xcassets */,
+				BFA29E931C2EFC6000152729 /* LaunchScreen.storyboard */,
+				BFA29E961C2EFC6000152729 /* Info.plist */,
+			);
+			path = PitchIza;
+			sourceTree = "<group>";
+		};
+		BFA29E9E1C2EFC6000152729 /* PitchIzaTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA29E9F1C2EFC6000152729 /* PitchIzaTests.swift */,
+				BFA29EA11C2EFC6000152729 /* Info.plist */,
+			);
+			path = PitchIzaTests;
+			sourceTree = "<group>";
+		};
+		BFA29EA91C2EFC6000152729 /* PitchIzaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA29EAA1C2EFC6000152729 /* PitchIzaUITests.swift */,
+				BFA29EAC1C2EFC6000152729 /* Info.plist */,
+			);
+			path = PitchIzaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFA29E861C2EFC6000152729 /* PitchIza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA29EAF1C2EFC6000152729 /* Build configuration list for PBXNativeTarget "PitchIza" */;
+			buildPhases = (
+				BFA29E831C2EFC6000152729 /* Sources */,
+				BFA29E841C2EFC6000152729 /* Frameworks */,
+				BFA29E851C2EFC6000152729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PitchIza;
+			productName = PitchIza;
+			productReference = BFA29E871C2EFC6000152729 /* PitchIza.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFA29E9A1C2EFC6000152729 /* PitchIzaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA29EB21C2EFC6000152729 /* Build configuration list for PBXNativeTarget "PitchIzaTests" */;
+			buildPhases = (
+				BFA29E971C2EFC6000152729 /* Sources */,
+				BFA29E981C2EFC6000152729 /* Frameworks */,
+				BFA29E991C2EFC6000152729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA29E9D1C2EFC6000152729 /* PBXTargetDependency */,
+			);
+			name = PitchIzaTests;
+			productName = PitchIzaTests;
+			productReference = BFA29E9B1C2EFC6000152729 /* PitchIzaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFA29EA51C2EFC6000152729 /* PitchIzaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA29EB51C2EFC6000152729 /* Build configuration list for PBXNativeTarget "PitchIzaUITests" */;
+			buildPhases = (
+				BFA29EA21C2EFC6000152729 /* Sources */,
+				BFA29EA31C2EFC6000152729 /* Frameworks */,
+				BFA29EA41C2EFC6000152729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA29EA81C2EFC6000152729 /* PBXTargetDependency */,
+			);
+			name = PitchIzaUITests;
+			productName = PitchIzaUITests;
+			productReference = BFA29EA61C2EFC6000152729 /* PitchIzaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFA29E7F1C2EFC6000152729 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Irma;
+				TargetAttributes = {
+					BFA29E861C2EFC6000152729 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G727VUG8AL;
+					};
+					BFA29E9A1C2EFC6000152729 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BFA29E861C2EFC6000152729;
+					};
+					BFA29EA51C2EFC6000152729 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BFA29E861C2EFC6000152729;
+					};
+				};
+			};
+			buildConfigurationList = BFA29E821C2EFC6000152729 /* Build configuration list for PBXProject "PitchIza" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFA29E7E1C2EFC6000152729;
+			productRefGroup = BFA29E881C2EFC6000152729 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFA29E861C2EFC6000152729 /* PitchIza */,
+				BFA29E9A1C2EFC6000152729 /* PitchIzaTests */,
+				BFA29EA51C2EFC6000152729 /* PitchIzaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFA29E851C2EFC6000152729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA29E951C2EFC6000152729 /* LaunchScreen.storyboard in Resources */,
+				BFA29E921C2EFC6000152729 /* Assets.xcassets in Resources */,
+				BFA29E901C2EFC6000152729 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA29E991C2EFC6000152729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA29EA41C2EFC6000152729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFA29E831C2EFC6000152729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9A0BAE1C30C74B000A553A /* RecordedAudio.swift in Sources */,
+				BFA29E8D1C2EFC6000152729 /* RecordSoundsViewController.swift in Sources */,
+				BFA29EB91C2F4E9300152729 /* PlaySoundsViewController.swift in Sources */,
+				BFA29E8B1C2EFC6000152729 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA29E971C2EFC6000152729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA29EA01C2EFC6000152729 /* PitchIzaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA29EA21C2EFC6000152729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA29EAB1C2EFC6000152729 /* PitchIzaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFA29E9D1C2EFC6000152729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA29E861C2EFC6000152729 /* PitchIza */;
+			targetProxy = BFA29E9C1C2EFC6000152729 /* PBXContainerItemProxy */;
+		};
+		BFA29EA81C2EFC6000152729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA29E861C2EFC6000152729 /* PitchIza */;
+			targetProxy = BFA29EA71C2EFC6000152729 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFA29E8E1C2EFC6000152729 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA29E8F1C2EFC6000152729 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFA29E931C2EFC6000152729 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA29E941C2EFC6000152729 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFA29EAD1C2EFC6000152729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos9.2;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFA29EAE1C2EFC6000152729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFA29EB01C2EFC6000152729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PitchIza/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iza.PitchIza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		BFA29EB11C2EFC6000152729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PitchIza/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iza.PitchIza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		BFA29EB31C2EFC6000152729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PitchIzaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iza.PitchIzaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PitchIza.app/PitchIza";
+			};
+			name = Debug;
+		};
+		BFA29EB41C2EFC6000152729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PitchIzaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iza.PitchIzaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PitchIza.app/PitchIza";
+			};
+			name = Release;
+		};
+		BFA29EB61C2EFC6000152729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PitchIzaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iza.PitchIzaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PitchIza;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BFA29EB71C2EFC6000152729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PitchIzaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iza.PitchIzaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PitchIza;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFA29E821C2EFC6000152729 /* Build configuration list for PBXProject "PitchIza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA29EAD1C2EFC6000152729 /* Debug */,
+				BFA29EAE1C2EFC6000152729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA29EAF1C2EFC6000152729 /* Build configuration list for PBXNativeTarget "PitchIza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA29EB01C2EFC6000152729 /* Debug */,
+				BFA29EB11C2EFC6000152729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA29EB21C2EFC6000152729 /* Build configuration list for PBXNativeTarget "PitchIzaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA29EB31C2EFC6000152729 /* Debug */,
+				BFA29EB41C2EFC6000152729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA29EB51C2EFC6000152729 /* Build configuration list for PBXNativeTarget "PitchIzaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA29EB61C2EFC6000152729 /* Debug */,
+				BFA29EB71C2EFC6000152729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFA29E7F1C2EFC6000152729 /* Project object */;
+}
